@@ -265,13 +265,17 @@ img {
 
 /* Наша команда */
 .our-team {
+  background-color: var(--background-button);
+  background-size: 100%;
+}
+
+.our-team .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--background-button);
 }
 
 .our-team .container .team-list {
