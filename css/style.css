@@ -38,6 +38,12 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .text {
   margin: 0;
   padding-top: 10px;
@@ -386,6 +392,7 @@ ul {
 .our-works {
   display: flex;
   justify-content: center;
+  padding-bottom: 34px;
 }
 
 .portfolio .finished-works {
@@ -408,23 +415,21 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   background-color: var(--background-button);
+  margin-left: 8px;
+  padding: 6px 22px;
 }
 
 .btn-works:hover,
 .btn-works:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 1px solid var(--black-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--white-color);
   background-color: var(--blue-color);
 }
 
 .btn-active {
-  border: 1px solid var(--black-color);
   color: var(--white-color);
   background-color: var(--blue-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 4px rgba(61, 16, 16, 0.25);
 }
 
 .finished-works a {
@@ -457,7 +462,17 @@ ul {
 }
 
 .finished-works {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.finished-works-item {
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
