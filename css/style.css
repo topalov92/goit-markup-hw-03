@@ -232,7 +232,6 @@ img {
 
 .what-we-do .what-we-do-list {
   display: flex;
-  margin-top: 50px;
 }
 
 .title-section {
@@ -267,7 +266,6 @@ img {
 
 .team-list {
   display: flex;
-  margin-top: 50px;
 }
 
 .our-team .team-item {
@@ -290,6 +288,7 @@ img {
 
 .title-section {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-list h3 {
