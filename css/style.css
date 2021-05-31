@@ -225,10 +225,14 @@ img {
 /* Особенности */
 
 /* Чем мы занимаемся */
+.what-we-do {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .what-we-do .what-we-do-list {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
 }
 
 .title-section {
@@ -252,17 +256,18 @@ img {
 .our-team {
   background-color: var(--background-button);
   background-size: 100%;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-text {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .team-list {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
 }
 
 .our-team .team-item {
@@ -284,7 +289,6 @@ img {
 }
 
 .title-section {
-  padding-top: 94px;
   text-align: center;
 }
 
@@ -361,14 +365,14 @@ img {
 /* portfolio */
 
 .portfolio {
-  padding-top: 56px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .our-works {
   display: flex;
   justify-content: center;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfolio .finished-works {
